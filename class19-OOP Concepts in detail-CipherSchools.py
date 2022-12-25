@@ -9,7 +9,7 @@ def func(): # ---> This statement creates a value and store it in the variable f
 isinstance(func,object) # ---> True
 
 class A:
-    name="jatin"
+    name="Aishant"
     marks=50
 
 type(A) # ---> Datatype is type for this variable
@@ -40,9 +40,9 @@ for i in range(5):
     print(i)
 #Even for for loop there is dunders
 
-a={"name":"Jatin"}
-# a{"name"} --->'Jatin'
-a.__getitem__("name") # --->'Jatin'
+a={"name":"Aishant"}
+# a{"name"} --->'Aishant'
+a.__getitem__("name") 
 
 class Exponent:
     def __init__(self,n):
@@ -57,7 +57,7 @@ class A:
     def __init__(self,n):
         self.n=n
 a=A(2)
-a.name # --->"Jatin"
+a.name # --->"Aishant/"
 a.n # ---> 2
 
 
